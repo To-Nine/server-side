@@ -1,27 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\soumu\\source\\repos\\toTaskApi\\toTaskApi\\toTaskApi.csproj": {}
+    "C:\\Users\\Império Pet Suzano\\Documents\\TCC\\server-side\\toTaskApi\\toTaskApi\\toTaskApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\soumu\\source\\repos\\toTaskApi\\toTaskApi\\toTaskApi.csproj": {
+    "C:\\Users\\Império Pet Suzano\\Documents\\TCC\\server-side\\toTaskApi\\toTaskApi\\toTaskApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\soumu\\source\\repos\\toTaskApi\\toTaskApi\\toTaskApi.csproj",
+        "projectUniqueName": "C:\\Users\\Império Pet Suzano\\Documents\\TCC\\server-side\\toTaskApi\\toTaskApi\\toTaskApi.csproj",
         "projectName": "toTaskApi",
-        "projectPath": "C:\\Users\\soumu\\source\\repos\\toTaskApi\\toTaskApi\\toTaskApi.csproj",
-        "packagesPath": "C:\\Users\\soumu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\soumu\\source\\repos\\toTaskApi\\toTaskApi\\obj\\",
+        "projectPath": "C:\\Users\\Império Pet Suzano\\Documents\\TCC\\server-side\\toTaskApi\\toTaskApi\\toTaskApi.csproj",
+        "packagesPath": "C:\\Users\\Império Pet Suzano\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Império Pet Suzano\\Documents\\TCC\\server-side\\toTaskApi\\toTaskApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\soumu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Império Pet Suzano\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -46,9 +44,27 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[7.0.4, )"
+            },
             "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
               "target": "Package",
               "version": "[1.14.0, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[7.0.3, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
@@ -61,7 +77,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -73,7 +90,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }
